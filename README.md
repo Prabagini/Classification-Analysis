@@ -96,16 +96,3 @@ Total actual deposit made by the customers were just 11% from the overall custom
 
 
 
-## Repository Directory
-
-
-├── data             
-│
-├── images          
-│
-├── notebook       
-│   
-├── presentation    
-│
-└── README.md       
-
