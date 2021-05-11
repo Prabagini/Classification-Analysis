@@ -99,15 +99,13 @@ Total actual deposit made by the customers were just 11% from the overall custom
 ## Repository Directory
 
 
-├── data             <-- Data in CSV format
+├── data             
 │
-├── images           <-- model visualization
+├── images          
+│
+├── notebook       
 │   
+├── presentation    
 │
-├── notebooks        <-- Jupyter Notebooks for exploration and report
-│   
-├── presentation     <-- Non technical presentation
-│
-└── README.md        <-- Main README file explaining the project's business case,
-│                        methodology, and findings
+└── README.md       
 
