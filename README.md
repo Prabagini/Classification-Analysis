@@ -7,9 +7,11 @@
 The data is related with direct marketing campaigns (phone calls) of a Portuguese banking institution. The classification goal is to predict if the client will subscribe a term deposit (variable y).
 
 
-Link to data: https://archive.ics.uci.edu/ml/datasets/Bank+Marketing
 
 ## Data
+
+Link to data: https://archive.ics.uci.edu/ml/datasets/Bank+Marketing
+
 
 - age 
 
@@ -80,7 +82,12 @@ We are going to try different models. In this section we will work through,
 
 ## Interpret
 
-In XG Boost Model, True Positive : 694(Number of customers deposited )\ True Negative : 6744(Number of customers didn't deposit)\ False Positive : 559(Number of customers didn't deposit but predicted as deposited)\ False Negative : 241(Number of customers deposited but predicted as not deposited)\ In this scenario, it is important to reduce the False Negative number. The XG Boost model having precision of 0.55 predicting the True positive from the overall predicted positive with 90% accuracy.
+In XG Boost Model, 
+- True Positive : 694(Number of customers deposited )
+- True Negative : 6744(Number of customers didn't deposit)
+- False Positive : 559(Number of customers didn't deposit but predicted as deposited)
+- False Negative : 241(Number of customers deposited but predicted as not deposited)
+In this scenario, it is important to reduce the False positive number. 
 
 ![graph1](Images/duration.png)
 
